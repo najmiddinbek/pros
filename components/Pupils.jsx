@@ -19,6 +19,7 @@ const PupilsAddClient = () => {
     const [telephoneRaqami, setTelephoneRaqami] = useState("");
     const [newIsm, setNewIsm] = useState("");
     const [setShaxsi, setSetShaxsi] = useState("");
+    const [MFY, setMFY] = useState("")
 
     const router = useRouter();
     const maktablar = Array.from({ length: 54 }, (_, index) => index + 1);
@@ -48,6 +49,7 @@ const PupilsAddClient = () => {
                     telephoneRaqami,
                     newIsm,
                     setShaxsi,
+                    MFY
                 }),
             });
 
@@ -142,6 +144,11 @@ const PupilsAddClient = () => {
                             type="text"
                             placeholder="Telefon raqami"
                         />
+
+                        <label className="text-[18px] poppins font-bold" htmlFor="">MFY tanlang</label>
+
+                        <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" />
+
 
                         <div className="flex justify-end">
                             <button

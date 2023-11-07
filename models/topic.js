@@ -12,6 +12,7 @@ const topicSchema = new Schema(
     newDarsQoldirish: String,
     telephoneRaqami: String,
     newIsm: String,
+    MFY: String,
   },
   {
     timestamps: true,
