@@ -147,7 +147,16 @@ const PupilsAddClient = () => {
 
                         <label className="text-[18px] poppins font-bold" htmlFor="">MFY tanlang</label>
 
-                        <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" />
+                        {/* <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" /> */}
+
+                        <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
+                            <option>SARKOR MFY</option>
+                            <option>BOG`ISHAMOL MFY</option>
+                            <option>BESHKAPA MFY</option>
+                            <option>ZIYOKOR MFY</option>
+                            <option>CHORTOQ MFY</option>
+                            <option>BO`LON MFY</option>
+                        </select>
 
 
                         <div className="flex justify-end">
@@ -187,17 +196,25 @@ const PupilsAddClient = () => {
                         <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-no-drop">
                             <option>Malumot yo`q</option>
                         </select>
+                        <label className="text-[18px] poppins font-bold" htmlFor="">MFY tanlang</label>
+
+                        <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
+                            <option>SARKOR MFY</option>
+                            <option>BOG`ISHAMOL MFY</option>
+                            <option>BESHKAPA MFY</option>
+                            <option>ZIYOKOR MFY</option>
+                            <option>CHORTOQ MFY</option>
+                            <option>BO`LON MFY</option>
+                        </select>
+
+                        {/* <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" /> */}
+
                         <label className="text-[18px] poppins font-bold" htmlFor="">
                             Telefon raqami
                         </label>
-                        {/* <input
-                            className="w-full py-3 px-2 border outline-none"
-                            onChange={(e) => setTelephoneRaqami(e.target.value)}
-                            value={telephoneRaqami}
-                            type="text"
-                            placeholder="Telefon raqami"
-                        /> */}
+
                         <input placeholder="Malumot yo`q " className="w-full px-2 py-3 bg-white cursor-no-drop" type="text" />
+
                         <div className="flex justify-end">
                             <button
                                 type="submit"
@@ -214,7 +231,7 @@ const PupilsAddClient = () => {
 
 
 
-            </form>
+            </form >
         </>
     );
 };

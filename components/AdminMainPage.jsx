@@ -14,11 +14,90 @@ export default function page() {
                 <Link href={"/"} className="green asosiy_button py-3 px-10 button text-white rounded-md">Orqaga</Link>
             </div>
             <>
-                <div className='w-full h-[10px] bg-transparent rounded-xl'></div>
                 <Link href={"/adminPanel"}>
-                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full'>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                         <p className='text-[18px] poppins'>
                             3-maktab
+                        </p>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
+                                <BsFillEnvelopeFill className='text-3xl' />
+                                <Count />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/Chortoq"}>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <p className='text-[18px] poppins'>
+                            Chortoq MFY
+                        </p>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
+                                <BsFillEnvelopeFill className='text-3xl' />
+                                <Count />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/Chortoq"}>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <p className='text-[18px] poppins'>
+                            Beshkapa MFY
+                        </p>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
+                                <BsFillEnvelopeFill className='text-3xl' />
+                                <Count />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/Chortoq"}>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <p className='text-[18px] poppins'>
+                            Ziyokor MFY
+                        </p>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
+                                <BsFillEnvelopeFill className='text-3xl' />
+                                <Count />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/Chortoq"}>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <p className='text-[18px] poppins'>
+                            Bo`lon MFY
+                        </p>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
+                                <BsFillEnvelopeFill className='text-3xl' />
+                                <Count />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/Chortoq"}>
+                    <div className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full'>
+                        <p className='text-[18px] poppins'>
+                            Sarkor MFY
                         </p>
                         <div className="flex gap-2">
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
